@@ -3,6 +3,8 @@ class StoreAdminController < ApplicationController
 
   def orders
     render layout: "order_administration"
-  end 
+  end
 
+  def invoice
+  end
 end
