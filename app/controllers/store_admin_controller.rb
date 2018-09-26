@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
-  layout: "admin"
+  layout "admin"
 
   def orders
     render layout: "order_administration"
